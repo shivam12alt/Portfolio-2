@@ -1,0 +1,299 @@
+ 
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Kanit", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+ 
+.homepage {
+   position: relative;
+   height: 340px;
+   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(home-page.jpg);
+   background-size: cover;
+   background-position: center;
+   color: #fff;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.homepage .navbar{
+   display: flex;
+   flex-direction: row;
+    
+   list-style: none;
+   margin-top: -90px;
+
+   /* padding: 20px; */
+}
+ 
+.homepage .navbar li{
+   padding: 10px;
+ font-size: 17px;
+ 
+}
+.navbar li a{
+   text-decoration: none;
+   color: white;
+   
+}
+.navbar li a:hover{
+   
+   color: grey;
+}
+ 
+.homepage h1 {
+   font-size: 50px;
+}
+
+.homepage p {
+   font-size: 25px;
+}
+
+/* secondpage */
+.secondpage {
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.secondpage img {
+ 
+   height: 200px;
+   width: 200px;
+   border-radius: 50%;
+   border: 4px solid rgb(54, 52, 52);
+   cursor: pointer;
+}
+.secondpage img:hover{
+   
+    
+   border: 5px solid rgb(54, 52, 52);
+}
+
+.secondpage h2 {
+   font-size: 50px;
+}
+
+.secondpage p {
+   font-size: 20px;
+  
+}
+
+.thirdpage {
+   display: flex;
+   height: 500px;
+
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+.thirdpage h2 {
+   font-size: 50px;
+}
+
+.thirdpage p {
+   font-size: 20px;
+   text-align: center;
+}
+.fourthpage{
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.fourthpage h2{
+   font-size: 50px;
+}
+.fourthpage p{
+   font-size: 20px;
+   text-align: center;
+}
+.fourthpage button{
+   border: 2px solid rgb(41, 40, 40);
+
+   background-color: black;
+   color: white;
+   padding: 10px;
+}
+.fourthpage button a{
+    
+   color: white;
+   padding: 13px;
+}
+.fourthpage button:hover{
+    background-color: grey;
+   border: 2px solid black;
+  
+}
+.footer{
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   border: 2px solid black;
+   background-color: black;
+   
+}
+.footer a{
+   padding: 10px;
+   color: white;
+ text-decoration: none;
+ font-size: 18px;
+
+}
+@media (max-width : 680px){
+   .secondpage {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   
+   .secondpage img {
+      /* margin-top: 2px; */
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      border: 4px solid rgb(54, 52, 52);
+   }
+   
+   .secondpage h2 {
+      font-size: 25px;
+   }
+   
+   .secondpage p {
+      font-size: 15px;
+     
+   }
+   
+   .thirdpage {
+      display: flex;
+      height: 300px;
+   
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   
+   }
+   
+   .thirdpage h2 {
+      font-size: 25px;
+   }
+   
+   .thirdpage p {
+      font-size: 15px;
+      text-align: center;
+   }
+   .fourthpage{
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .fourthpage h2{
+      font-size: 25px;
+   }
+   .fourthpage p{
+      font-size: 15px;
+      text-align: center;
+   }
+   .fourthpage button{
+      border: 2px solid black;
+      background-color: rgb(182, 169, 169);
+      color: white;
+      padding: 10px;
+      /* margin-bottom: 100px; */
+   }
+   .homepage .navbar li{
+      padding: 5px;
+    font-size: 10px;
+    
+   }
+}
+@media (max-width : 414px){
+   *{
+      max-width: 100vw;
+   }
+   .secondpage {
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   
+   .secondpage img {
+      /* margin-top: 2px; */
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      border: 4px solid rgb(54, 52, 52);
+   }
+   
+   .secondpage h2 {
+      font-size: 25px;
+   }
+   
+   .secondpage p {
+      font-size: 15px;
+     
+   }
+   
+   .thirdpage {
+      display: flex;
+      height: 300px;
+   
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   
+   }
+   
+   .thirdpage h2 {
+      font-size: 25px;
+   }
+   
+   .thirdpage p {
+      font-size: 15px;
+      text-align: center;
+   }
+   .fourthpage{
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+   }
+   .fourthpage h2{
+      font-size: 25px;
+   }
+   .fourthpage p{
+      font-size: 15px;
+      text-align: center;
+   }
+   .fourthpage button{
+      border: 2px solid black;
+      background-color: rgb(182, 169, 169);
+      color: white;
+      padding: 10px;
+      /* margin-bottom: 100px; */
+   }
+   .homepage .navbar li{
+      padding: 3px;
+    font-size: 10px;
+    
+   }
+}
